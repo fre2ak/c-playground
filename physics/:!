@@ -1,0 +1,28 @@
+set nocompatible
+filetype off
+set rtp+=~/.vim/bundle/vundle
+call vundle#rc()
+
+" More settings
+
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
+set t_Co=256
+set number
+
+" Plugins
+
+Plugin 'w0ng/vim-hybrid'
+set background=dark
+colorscheme hybrid
+
+Plugin 'Yggdroot/indentLine'
+
+" End of Plugins
+
+set guifont=?
+
+filetype plugin indent on
+syntax on

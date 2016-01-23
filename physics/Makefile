@@ -13,3 +13,6 @@ ex2:
 
 ex3:
 	gcc ex3.c -o ex3.o -lm
+
+clean:
+	rm -f ex1.o ex2.o ex3.o
